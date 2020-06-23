@@ -19,8 +19,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.20197652872143299,
-            "y": 0.18688524590163932,
+            "x": 0.20012353304508956,
+            "y": 0.14754098360655737,
             "uniqueID": 227876,
             "ioValues": [
                 {
@@ -49,10 +49,13 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.20506485484867204,
-            "y": 0.459016393442623,
-            "uniqueID": 244018,
+            "x": 0.24644842495367514,
+            "y": 0.5868852459016394,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -70,19 +73,9 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.31315626930203827,
-            "y": 0.43278688524590164,
-            "uniqueID": 509817,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
+            "x": 0.3823347745521927,
+            "y": 0.5409836065573771,
+            "ioValues": []
         },
         {
             "atomType": "Code",
@@ -108,27 +101,6 @@
             "ap2Primary": true,
             "ap1ID": 696879,
             "ap2ID": 227876
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 227876,
-            "ap2ID": 509817
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 416096,
-            "ap2ID": 244018
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 244018,
-            "ap2ID": 509817
         }
     ],
     "fileTypeVersion": 1,
