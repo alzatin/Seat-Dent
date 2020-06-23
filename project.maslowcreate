@@ -15,10 +15,6 @@
             "uniqueID": 753113,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "xDist",
                     "ioValue": 0
                 },
@@ -57,10 +53,6 @@
             "uniqueID": 289752,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "xDist",
                     "ioValue": 0
                 },
@@ -82,6 +74,32 @@
             "uniqueID": 768939,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Sheet Metal Tab",
+            "x": 0.5727341964965728,
+            "y": 0.3935860058309038,
+            "uniqueID": 294780,
+            "projectID": "197395697",
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Attached Geometry",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Bent?",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
