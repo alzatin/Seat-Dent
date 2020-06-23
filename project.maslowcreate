@@ -47,6 +47,14 @@
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4587843463780183,
+            "y": 0.35409836065573774,
+            "uniqueID": 722721,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.24644842495367514,
@@ -75,6 +83,14 @@
             "name": "Assembly",
             "x": 0.3823347745521927,
             "y": 0.5409836065573771,
+            "uniqueID": 328051,
+            "ioValues": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.49042464612822645,
+            "y": 0.5540983606557377,
             "ioValues": []
         },
         {
