@@ -6,12 +6,12 @@
     "uniqueID": 133459,
     "ioValues": [
         {
-            "name": "Front Sphere",
-            "ioValue": 50
+            "name": "Back Sphere",
+            "ioValue": 10
         },
         {
-            "name": "Back Sphere",
-            "ioValue": 40
+            "name": "Front Sphere",
+            "ioValue": 15
         }
     ],
     "topLevel": true,
@@ -25,7 +25,7 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
@@ -39,21 +39,21 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ],
-            "currentEquation": "x/2"
+            "currentEquation": "x/3"
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.2770795930580491,
-            "y": 0.2653061224489796,
+            "x": 0.2710951526032316,
+            "y": 0.2536443148688047,
             "uniqueID": 753113,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 20
+                    "ioValue": 3.3333333333333335
                 },
                 {
                     "name": "yDist",
@@ -74,10 +74,10 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ],
-            "currentEquation": "-x/2"
+            "currentEquation": "-x/3"
         },
         {
             "atomType": "Input",
@@ -96,7 +96,7 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
@@ -131,7 +131,7 @@
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": -20
+                    "ioValue": -3.3333333333333335
                 },
                 {
                     "name": "yDist",
@@ -164,7 +164,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 25
+                    "ioValue": 7.5
                 },
                 {
                     "name": "zDist",
@@ -181,7 +181,7 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 50
+                    "ioValue": 15
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
@@ -195,7 +195,7 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 50
+                    "ioValue": 15
                 }
             ],
             "currentEquation": "x/2"
