@@ -4,15 +4,3 @@
 
 ![](/project.svg)
 
-## Seat Dent
-
-
-## Sheet Metal Tab
-
-
-## Unbent
-
-
-Readme text here
-
-

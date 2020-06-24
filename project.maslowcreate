@@ -11,7 +11,7 @@
         },
         {
             "name": "Back Sphere",
-            "ioValue": 30
+            "ioValue": 40
         }
     ],
     "topLevel": true,
@@ -25,21 +25,35 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 30
+                    "ioValue": 40
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.20107719928186715,
+            "y": 0.21282798833819244,
+            "uniqueID": 202749,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 40
+                }
+            ],
+            "currentEquation": "x/2"
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.22561340514661882,
-            "y": 0.27113702623906705,
+            "x": 0.2770795930580491,
+            "y": 0.2653061224489796,
             "uniqueID": 753113,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 40
+                    "ioValue": 20
                 },
                 {
                     "name": "yDist",
@@ -52,25 +66,18 @@
             ]
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.3195691202872531,
-            "y": 0.3294460641399417,
-            "uniqueID": 109588,
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.19748653500897667,
+            "y": 0.39067055393586003,
+            "uniqueID": 606661,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
+                    "name": "x",
+                    "ioValue": 40
                 }
-            ]
+            ],
+            "currentEquation": "-x/2"
         },
         {
             "atomType": "Input",
@@ -89,21 +96,42 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 30
+                    "ioValue": 40
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.38659485338120886,
+            "y": 0.33819241982507287,
+            "uniqueID": 109588,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.2333931777378815,
-            "y": 0.4985422740524781,
+            "x": 0.23219628964691802,
+            "y": 0.5072886297376094,
             "uniqueID": 289752,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": -20
                 },
                 {
                     "name": "yDist",
@@ -114,83 +142,35 @@
                     "ioValue": 0
                 }
             ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Sheet Metal Tab",
-            "x": 0.5727341964965728,
-            "y": 0.3935860058309038,
-            "uniqueID": 294780,
-            "projectID": "197395697",
-            "ioValues": [
-                {
-                    "name": "Length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Attached Geometry",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Bent?",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.2932375822860563,
-            "y": 0.6647230320699709,
-            "uniqueID": 235387,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 20
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 20
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "ShrinkWrap",
-            "name": "Shrink Wrap",
-            "x": 0.42609216038300424,
-            "y": 0.5976676384839651,
-            "uniqueID": 583108,
-            "ioValues": [
-                {
-                    "name": "3D shape 5",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 5",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                }
-            ],
-            "closedSelection": 0
         },
         {
             "atomType": "Input",
             "name": "Front Sphere",
             "x": 0.013333333333333334,
-            "y": 0.7696793002915452,
+            "y": 0.7346938775510203,
             "uniqueID": 179626,
             "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.31238779174147213,
+            "y": 0.6880466472303207,
+            "uniqueID": 235387,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 25
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Code",
@@ -205,6 +185,20 @@
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.24775583482944347,
+            "y": 0.9271137026239066,
+            "uniqueID": 202199,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 50
+                }
+            ],
+            "currentEquation": "x/2"
         },
         {
             "atomType": "Output",
@@ -223,6 +217,13 @@
             "ap2ID": 753113
         },
         {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 202749,
+            "ap2ID": 753113
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -230,10 +231,11 @@
             "ap2ID": 109588
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap1Name": "result",
+            "ap2Name": "xDist",
             "ap2Primary": false,
-            "ap1ID": 109588
+            "ap1ID": 606661,
+            "ap2ID": 289752
         },
         {
             "ap1Name": "number or geometry",
@@ -250,6 +252,20 @@
             "ap2ID": 768939
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 312771,
+            "ap2ID": 202749
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 312771,
+            "ap2ID": 606661
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -258,23 +274,15 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 109588
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 289752,
-            "ap2ID": 109588
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 235387,
-            "ap2ID": 583108
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 235387,
             "ap2ID": 109588
         },
         {
@@ -285,10 +293,31 @@
             "ap2ID": 571350
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 179626,
+            "ap2ID": 202199
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 235387,
+            "ap2ID": 109588
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 571350,
+            "ap2ID": 235387
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": 202199,
             "ap2ID": 235387
         }
     ],
