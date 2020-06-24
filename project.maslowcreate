@@ -4,7 +4,16 @@
     "x": 0,
     "y": 0,
     "uniqueID": 133459,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Front Sphere",
+            "ioValue": 50
+        },
+        {
+            "name": "Back Sphere",
+            "ioValue": 30
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -13,14 +22,19 @@
             "x": 0.12806702573309395,
             "y": 0.2594752186588921,
             "uniqueID": 645293,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 30
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.22381807301017356,
-            "y": 0.2857142857142857,
+            "x": 0.22561340514661882,
+            "y": 0.27113702623906705,
             "uniqueID": 753113,
             "ioValues": [
                 {
@@ -40,8 +54,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.3237582286056254,
-            "y": 0.3177842565597668,
+            "x": 0.3195691202872531,
+            "y": 0.3294460641399417,
             "uniqueID": 109588,
             "ioValues": [
                 {
@@ -59,13 +73,26 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Back Sphere",
+            "x": 0.013333333333333334,
+            "y": 0.47230320699708456,
+            "uniqueID": 312771,
+            "ioValues": []
+        },
+        {
             "atomType": "Code",
             "name": "Code",
             "x": 0.12327947336923997,
             "y": 0.48104956268221577,
             "uniqueID": 768939,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 30
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Translate",
@@ -147,24 +174,37 @@
                     "ioValue": ""
                 },
                 {
-                    "name": "3D shape 1",
+                    "name": "3D shape 5",
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 5",
+                    "name": "3D shape 1",
                     "ioValue": 10
                 }
             ],
             "closedSelection": 0
         },
         {
+            "atomType": "Input",
+            "name": "Front Sphere",
+            "x": 0.013333333333333334,
+            "y": 0.7696793002915452,
+            "uniqueID": 179626,
+            "ioValues": []
+        },
+        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.14602034709754638,
-            "y": 0.7842565597667639,
+            "x": 0.13824057450628366,
+            "y": 0.7900874635568513,
             "uniqueID": 571350,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(50)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 50
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Output",
@@ -196,6 +236,20 @@
             "ap1ID": 109588
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 312771,
+            "ap2ID": 645293
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 312771,
+            "ap2ID": 768939
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -222,6 +276,13 @@
             "ap2Primary": false,
             "ap1ID": 235387,
             "ap2ID": 109588
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 179626,
+            "ap2ID": 571350
         },
         {
             "ap1Name": "geometry",
