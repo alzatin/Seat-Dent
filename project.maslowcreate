@@ -104,8 +104,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.38659485338120886,
-            "y": 0.33819241982507287,
+            "x": 0.38479952124476363,
+            "y": 0.3177842565597668,
             "uniqueID": 109588,
             "ioValues": [
                 {
@@ -144,6 +144,20 @@
             ]
         },
         {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.21364452423698382,
+            "y": 0.7026239067055393,
+            "uniqueID": 394422,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 15
+                }
+            ],
+            "currentEquation": "x/3"
+        },
+        {
             "atomType": "Input",
             "name": "Front Sphere",
             "x": 0.013333333333333334,
@@ -168,7 +182,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 10
+                    "ioValue": 5
                 }
             ]
         },
@@ -185,6 +199,28 @@
                 }
             ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(Input1)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.47217235188509876,
+            "y": 0.7230320699708455,
+            "uniqueID": 349530,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ],
+            "closedSelection": 0
         },
         {
             "atomType": "Equation",
@@ -282,8 +318,22 @@
             "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
+            "ap1ID": 109588,
+            "ap2ID": 349530
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
             "ap1ID": 289752,
             "ap2ID": 109588
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": 394422,
+            "ap2ID": 235387
         },
         {
             "ap1Name": "number or geometry",
@@ -298,6 +348,13 @@
             "ap2Primary": false,
             "ap1ID": 179626,
             "ap2ID": 202199
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 179626,
+            "ap2ID": 394422
         },
         {
             "ap1Name": "geometry",
